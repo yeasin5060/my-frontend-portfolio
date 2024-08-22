@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../../utilities/Heading/Heading';
 import { NavLink } from 'react-router-dom';
 import profilelogo from "../../images/profilelogo.png"
+import { FaList } from "react-icons/fa6";
 import './Navbar.css'
 
 function Navbar() {
@@ -53,6 +54,9 @@ let handleContact = ()=>{
                                 <NavLink className="contact_me" onClick={handleContact} >Contact Me</NavLink>
                             </div>
                         </ul>
+                    </div>
+                    <div className='list-icon'>
+                        <FaList className='list-btn' />
                     </div>
                 </div>
             </div>

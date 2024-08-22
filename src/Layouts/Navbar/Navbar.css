@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navbar_logo_box{
     width: 70px;
@@ -89,4 +90,118 @@
 .contact_me:hover{
     background: rgb(116, 102, 129);
     color: #fff;
+}
+.list-icon{
+   text-align: right;
+   display: none;
+}
+.list-btn{
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: noen;
+}
+
+/* Adjustments for screens 1200px and below */
+@media (min-width : 1200px) and (max-width : 1399.99px) {
+    .navbar_link_flex {
+        column-gap: 30px;
+    }
+
+    .navbar_profile_name {
+        font-size: 20px;
+    }
+
+    .contact_me {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    .list-icon{
+        display: none;
+    }
+}
+
+/* Adjustments for screens 992px and below */
+@media (min-width : 768px) and (max-width : 991.99px){
+    #navbar {
+        padding: 25px 0;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .navbar_wrapper{
+        padding: 0 20px;
+    }
+    .navbar_link_flex {
+        column-gap: 20px;
+    }
+
+    .navbar_profile_name {
+        font-size: 18px;
+    }
+
+    .contact_me {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .list-icon{
+        display: none;
+    }
+}
+
+/* Adjustments for screens 768px and below */
+@media (min-width : 576px) and (max-width : 767.99px) {
+    .container{
+        width: 100%;
+    }
+    .navbar_wrapper {
+       padding: 0 15px;
+
+    }
+
+    .navbar_link_box {
+       display: none;
+    }
+
+    .navbar_logo_box {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar_profile_name {
+        font-size: 16px;
+    }
+
+    .list-icon{
+        display: block;
+    }
+
+}
+
+/* Adjustments for screens 576px and below */
+@media (max-width : 575.99px) {
+    .container {
+        width: 100%;
+    }
+    .navbar_wrapper {
+        padding: 0px 10px;
+    }
+    .navbar_link_box{
+        display: none;
+    }
+    .navbar_logo_box {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar_profile_name {
+        font-size: 14px;
+    }
+
+    .list-icon{
+        display: block;
+    }
 }

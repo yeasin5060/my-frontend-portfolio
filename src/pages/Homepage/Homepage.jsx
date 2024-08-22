@@ -8,11 +8,15 @@ import Homepagecontact from './Homepagecontact/Homepagecontact'
 function Homepage() {
   return (
     <>
-        <Homepagebanner/>
-        <Homepageabout/>
-        <Homepageskill/>
-        <Homepageproject/>
-        <Homepagecontact/>
+        {
+          /*
+           <Homepagebanner/>
+          <Homepageabout/>
+          <Homepageskill/>
+          <Homepageproject/>
+          <Homepagecontact/>
+           */
+        }
     </>
   )
 }

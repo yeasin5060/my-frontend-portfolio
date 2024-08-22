@@ -13,17 +13,11 @@ function Homepageskill() {
         lagfour:"Sass",
         lagfive: "talwind",
         lagsix: "Material UI",
-        lagseven:"React",
-        lageight:"Redux",
-        lagnine : "Axios"
-    },
-    {
-        id : 2,
-        lagtype : "Back End",
-        lagone : "Javascript",
-        lagtwo: "Node.Js",
-        lagthree: "Mongo.DB",
-        lagfour:"Firebase",
+        lagseven:"Reactjs",
+        lageight:"Redux-Toolkit",
+        lagnine : "Axios",
+        lagten : "Nodejs",
+        lagaliven : "Nextjs"
     },
     {
         id :3 ,
@@ -55,7 +49,9 @@ function Homepageskill() {
                   <Heading level="h4" text={item.lagsix} className="homeskill_wrapper_nanohead"/>
                   <Heading level="h4" text={item.lagseven} className="homeskill_wrapper_nanohead"/>
                   <Heading level="h4" text={item.lageight} className="homeskill_wrapper_nanohead"/>
-                  <Heading level="h4" text={item.lagnine} className="homeskill_wrapper_nanohead"/>                  
+                  <Heading level="h4" text={item.lagnine} className="homeskill_wrapper_nanohead"/> 
+                  <Heading level="h4" text={item.lagten} className="homeskill_wrapper_nanohead"/>
+                  <Heading level="h4" text={item.lagaliven} className="homeskill_wrapper_nanohead"/>                  
                 </div>
               </div>
             ))

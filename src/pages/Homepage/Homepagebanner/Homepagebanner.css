@@ -175,3 +175,144 @@
     align-items: center;
     column-gap: 20px;
 }
+
+
+/* Adjustments for screens 1200px and below 
+@media (max-width: 1200px) {
+    .homehaner_heading {
+        font-size: 56px;
+    }
+
+    .homebanar_pera {
+        font-size: 16px;
+    }
+
+    .homebanar_big_image_box {
+        width: 280px;
+        height: 280px;
+    }
+
+    .homebanar_wrapper {
+        column-gap: 80px;
+    }
+}
+
+ Adjustments for screens 992px and below 
+@media (max-width: 992px) {
+    #homebanar {
+        padding: 80px 0 40px 0;
+    }
+
+    .homebanar_wrapper {
+        column-gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .homehaner_heading {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .homebanar_pera {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .homebanar_image_box_flex {
+        column-gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .homebanar_big_image_box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .homebanar_small_image_box,
+    .homebanar_small_image_box_two {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+ Adjustments for screens 768px and below 
+@media (max-width: 768px) {
+    .homebanar_wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .homehaner_heading {
+        font-size: 42px;
+    }
+
+    .homebanar_pera {
+        font-size: 14px;
+    }
+
+    .homebanar_image_box_flex {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .homebanar_big_image_box {
+        width: 220px;
+        height: 220px;
+    }
+
+    .homebanar_wrapper_icon {
+        font-size: 32px;
+    }
+
+    .homebanar_all_language_wrapper {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 30px;
+    }
+
+    .homebanar_all_language_wrapper_stack_name {
+        font-size: 24px;
+    }
+}
+
+ Adjustments for screens 576px and below 
+@media (max-width: 576px) {
+    #homebanar {
+        padding: 60px 0 30px 0;
+    }
+
+    .homehaner_heading {
+        font-size: 36px;
+    }
+
+    .homebanar_pera {
+        font-size: 12px;
+    }
+
+    .homebanar_big_image_box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .homebanar_small_image_box,
+    .homebanar_small_image_box_two {
+        width: 50px;
+        height: 50px;
+    }
+
+    .homebanar_wrapper_icon {
+        font-size: 28px;
+    }
+
+    .homebanar_all_language_wrapper_stack_name {
+        font-size: 20px;
+    }
+
+    .homebanar_all_language_wrapper_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+*/
