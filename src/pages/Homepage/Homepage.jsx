@@ -8,9 +8,9 @@ import Homepagecontact from './Homepagecontact/Homepagecontact'
 function Homepage() {
   return (
     <>
+       <Homepagebanner/>
         {
           /*
-           <Homepagebanner/>
           <Homepageabout/>
           <Homepageskill/>
           <Homepageproject/>

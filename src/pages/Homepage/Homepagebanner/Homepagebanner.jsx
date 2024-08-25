@@ -31,10 +31,8 @@ function Homepagebanner() {
               <Link to = "https://github.com/" target='blank'><FiGithub className='homebanar_wrapper_icon' /></Link>
             </div>
           </div>
-          <div className='homebanar_image_box'>
-            <div className='homebanar_big_image_box'>
-              <img src={image} alt="not found" />
-            </div>
+          <div className='homebanar_big_image_box'>
+            <img src={image} alt="not found" />
           </div>
         </div>
         <div className='homebanar_all_language_wrapper'>
