@@ -64,3 +64,128 @@
 .homeabot_wrapper_contant_link:hover{
     background: rgb(85, 4, 161);
 }
+
+/* Responsive Media Queries */
+
+/* Adjustments for screens 1200px and below */
+@media (max-width: 1200px) {
+    .homeabot_wrapper_image_box {
+        width: 400px;
+        height: 400px;
+    }
+
+    .homeabot_wrapper_contant_box {
+        width: 100%;
+    }
+
+    .homeabot_wrapper_contant_head {
+        font-size: 38px;
+    }
+}
+
+/* Adjustments for screens 992px and below */
+@media (max-width: 992px) {
+    #homeabout {
+        padding: 80px 0 40px 0;
+    }
+
+    .homeabout_wrapper {
+        column-gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .homeabot_wrapper_image_box {
+        width: 350px;
+        height: 350px;
+    }
+
+    .homeabot_wrapper_contant_box {
+        width: 100%;
+    }
+
+    .homeabot_wrapper_contant_head {
+        font-size: 34px;
+    }
+
+    .homeabot_wrapper_contant_nanohead {
+        font-size: 24px;
+    }
+}
+
+/* Adjustments for screens 768px and below */
+@media (max-width: 768px) {
+    .homeabout_wrapper {
+        text-align: left;
+    }
+
+    .homeabot_wrapper_image_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .homeabot_wrapper_contant_box {
+        width: 100%;
+    }
+
+    .homeabot_wrapper_contant_head {
+        font-size: 30px;
+    }
+
+    .homeabot_wrapper_contant_nanohead {
+        font-size: 22px;
+    }
+
+    .homeabot_wrapper_contant_pera {
+        font-size: 16px;
+    }
+
+    .homeabot_wrapper_contant_link {
+        font-size: 20px;
+    }
+}
+
+/* Adjustments for screens 576px and below */
+@media (max-width: 576px) {
+    #homeabout {
+        padding: 60px 0 30px 0;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .homeabout_wrapper{
+        padding: 0 0 0 30px; 
+    }
+    .homeabot_wrapper_image_box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .homeabot_wrapper_contant_box {
+        width: 100%;
+    }
+
+    .homeabot_wrapper_contant_head {
+        font-size: 26px;
+        width: 400px;
+        padding-bottom: 15px;
+    }
+
+    .homeabot_wrapper_contant_nanohead {
+        font-size: 20px;
+    }
+
+    .homeabot_wrapper_contant_pera {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .homeabot_wrapper_contant_link_box{
+        margin-top: 20px;
+    }
+
+    .homeabot_wrapper_contant_link {
+        font-size: 18px;
+    }
+}

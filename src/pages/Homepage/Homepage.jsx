@@ -9,9 +9,9 @@ function Homepage() {
   return (
     <>
        <Homepagebanner/>
+       <Homepageabout/>
         {
           /*
-          <Homepageabout/>
           <Homepageskill/>
           <Homepageproject/>
           <Homepagecontact/>
