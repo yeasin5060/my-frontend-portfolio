@@ -114,8 +114,12 @@
 
 /* Adjustments for screens 768px and below */
 @media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
     .homeabout_wrapper {
         text-align: left;
+        padding: 0 0 0 30px; 
     }
 
     .homeabot_wrapper_image_box {
@@ -129,14 +133,17 @@
 
     .homeabot_wrapper_contant_head {
         font-size: 30px;
+        width: 550px;
     }
 
     .homeabot_wrapper_contant_nanohead {
         font-size: 22px;
+        margin-bottom: 15px;
     }
 
     .homeabot_wrapper_contant_pera {
         font-size: 16px;
+        width: 550px;
     }
 
     .homeabot_wrapper_contant_link {
@@ -169,7 +176,7 @@
     .homeabot_wrapper_contant_head {
         font-size: 26px;
         width: 400px;
-        padding-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .homeabot_wrapper_contant_nanohead {

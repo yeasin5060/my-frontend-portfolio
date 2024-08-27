@@ -105,7 +105,15 @@
 }
 
 /* Adjustments for screens 1200px and below */
-@media (min-width : 1200px) and (max-width : 1399.99px) {
+@media (max-width: 1200px) {
+    .container{
+        width: 1200px;
+    }
+    .navbar_wrapper{
+        align-items: center;
+        justify-content: center;
+        column-gap: 300px;
+    }
     .navbar_link_flex {
         column-gap: 30px;
     }
@@ -124,9 +132,9 @@
 }
 
 /* Adjustments for screens 992px and below */
-@media (min-width : 768px) and (max-width : 991.99px){
+@media (max-width: 992px){
     #navbar {
-        padding: 25px 0;
+        padding: 25px ;
         width: 100%;
     }
     .container{
@@ -153,7 +161,7 @@
 }
 
 /* Adjustments for screens 768px and below */
-@media (min-width : 576px) and (max-width : 767.99px) {
+@media (max-width: 768px) {
     .container{
         width: 100%;
     }
