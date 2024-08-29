@@ -10,9 +10,9 @@ function Homepage() {
     <>
        <Homepagebanner/>
        <Homepageabout/>
+       <Homepageskill/>
         {
           /*
-          <Homepageskill/>
           <Homepageproject/>
           <Homepagecontact/>
            */

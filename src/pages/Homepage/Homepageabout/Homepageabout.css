@@ -69,6 +69,9 @@
 
 /* Adjustments for screens 1200px and below */
 @media (max-width: 1200px) {
+    .homeabout_wrapper{
+        padding: 0 40px;
+    }
     .homeabot_wrapper_image_box {
         width: 400px;
         height: 400px;
@@ -80,6 +83,10 @@
 
     .homeabot_wrapper_contant_head {
         font-size: 38px;
+    }
+
+    .homeabot_wrapper_contant_pera{
+        width: 800px;
     }
 }
 
